@@ -1,0 +1,21 @@
+client features client_features 
+id     id       id
+
+name    name    clientid
+
+size (S,M,L) addeddate featureid
+             (timestamp format)
+
+             enabled (T,F)
+
+Write a query to all list all larger clients
+Select clientname,clienid from Client 
+       where Size=Large
+
+Write a query to enable a feature called “SpaceshipPlugin”
+Update features 
+  SET enable=True
+   where featurename="SpaceshipPlugin"
+
+Select name From features 
+    where addedtdate >='2013 00:00:00.000'
