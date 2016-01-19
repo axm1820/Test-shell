@@ -1,0 +1,24 @@
+Loginto Jama, create a user name amishra
+with valid password akshatmishrapassword
+Exceed the character with longer length
+it should fail for both username and password
+Scenario 1
+Log in to jama
+Correct username and password  => Passes
+Enter the correct username and invalid password => Fails
+Enter the invalid username and correct password => Fails.
+Click the logout button which should log out the specific user 
+bring back to the home page of jama. 
+
+Scenario 2
+Make sure you 
+Clck the username link on the right corner and make sure that it takes to right page.
+Make sure home stream projects and reviews are correctly visible
+Go to home  and reply "test" to check if you can see the string show up on the stream.
+
+Scenario 3
+Click the forgot username link and enter email address
+hit submit, make sure you receive the email and reset
+the password. 
+
+
